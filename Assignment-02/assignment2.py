@@ -1,10 +1,12 @@
 ## You have just recently been hired to calculate scores for a Dart Board game! Write a function  scoreThrows() that accepts any number of radiuses  (can be integers), and returns a total score using the below specification. 
+
 ## Scoring specifications: 
 # 0 points ‐ radius above 10 
 # 5 points ‐ radius between 5 and 10 inclusive 
 # 10 points ‐ radius less than 5 
 # If all radiuses are less than 5, award 100 BONUS POINTS! 
 # An empty input should return 0. 
+
 ## Expected Output: 
 # scoreThrows() => returns 0 
 # scoreThrows(1, 5, 11) => returns 15 
