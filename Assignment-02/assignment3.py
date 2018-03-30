@@ -1,4 +1,4 @@
-## The Hidden Word: Maya writes weekly articles for a well‐known magazine, but she is missing one word each time she is about to send the article to the editor. The article is not complete without this word. Maya has a friend, Dan, and he is very good with words, but he does not like just to give them away. He texts Maya a number, and she needs to find out the hidden word. 
+# # The Hidden Word: Maya writes weekly articles for a well‐known magazine, but she is missing one word each time she is about to send the article to the editor. The article is not complete without this word. Maya has a friend, Dan, and he is very good with words, but he does not like just to give them away. He texts Maya a number, and she needs to find out the hidden word. 
 
 # The words can contain only the letters: 
 #  "a", "b", "d", "e", "i", "l", "m", "n", "o", and "t". 
@@ -12,8 +12,8 @@
 input_number = input('enter the value: ') # get the number from command line
   
 def hidden(num):
-  num_array = map(int, str(num)) # strip number to digits
   decoded_word = ""
+  num_array = map(int, str(num)) # strip number to digits
 
   for i in num_array:
 
